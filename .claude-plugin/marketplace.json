@@ -1,0 +1,11 @@
+{
+  "name": "repeat-mistake-guard",
+  "owner": { "name": "0x9ff" },
+  "plugins": [
+    {
+      "name": "guard",
+      "source": "./plugins/guard",
+      "description": "Correct Claude once and it writes a lesson; make the same mistake twice and it turns the lesson into a check a hook enforces."
+    }
+  ]
+}
